@@ -1,32 +1,56 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
-[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set(/home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala, /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(/home/pramod/Documents/SlickTest/src/main/scala/model/Invoice.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set(/home/pramod/Documents/SlickTest/target/scala-2.11/classes/config/DatbaseConfig.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$$anonfun$insertItems$1$$anonfun$1.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$$anonfun$getItems$1$$anonfun$4.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/TestMain$.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/dao/Items.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/TestMain.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/model/Items$.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$$anonfun$insertItems$1.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/InvoiceController$$anonfun$2.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$$anonfun$getItems$1.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/InvoiceController$.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/InvoiceController$$anonfun$1.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/config/DatbaseConfig$.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/model/Invoice$.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/model/Invoice.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/InvoiceController.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$$anonfun$getItems$1$$anonfun$3.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/controller/ItemsController$$anonfun$insertItems$1$$anonfun$2.class, /home/pramod/Documents/SlickTest/target/scala-2.11/classes/model/Items.class)[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pramod/Documents/SlickTest/src/main/scala/model/Invoice.scala, /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala, /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set(/home/pramod/Documents/SlickTest/src/main/scala/model/Invoice.scala, /home/pramod/Documents/SlickTest/src/main/scala/model/Items.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/TestMain.scala, /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala, /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/pramod/Documents/SlickTest/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pramod/Documents/SlickTest/src/main/scala/model/Invoice.scala, /home/pramod/Documents/SlickTest/src/main/scala/model/Items.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/TestMain.scala, /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala, /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pramod/Documents/SlickTest/src/main/scala/model/Invoice.scala, /home/pramod/Documents/SlickTest/src/main/scala/model/Items.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/TestMain.scala, /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala, /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 5 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/pramod/Documents/SlickTest/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.6[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.6[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 19dc9296, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 79268b28, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/pramod/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/pramod/Documents/SlickTest/target/scala-2.11/classes:/home/pramod/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.3-1100-jdbc4.jar:/home/pramod/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-2.1.0.jar:/home/pramod/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar:/home/pramod/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/pramod/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.6.4.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 0.407906141 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.356283362 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pramod/Documents/SlickTest/src/main/scala/config/DatbaseConfig.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, DatbaseConfig, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, connectionUrl, ==, clone, toString, !=, getClass, dbDriver, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pramod/Documents/SlickTest/src/main/scala/controller/ItemsController.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, name, quantity, wait, *, $asInstanceOf, equals, foreignKey$default$5, tax, indexes, asInstanceOf, tableConstraints, price, foreignKey, synchronized, $isInstanceOf, encodeRef, primaryKeys, tableNode, tableProvider, foreignKeys, notifyAll, primaryKey, isInstanceOf, foreignKey$default$6, insertItems, <init>, id, connectionUrl, ItemsTable, schemaName, create_*, tableName, tableTag, ==, clone, toNode, collectFieldSymbols, TableElementType, column, toString, index$default$3, !=, getClass, tableIdentitySymbol, ne, O, eq, ##, finalize, index, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/pramod/Documents/SlickTest/src/main/scala/controller/TestMain.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pramod/Documents/SlickTest/src/main/scala/dao/Items.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, name, quantity, wait, *, $asInstanceOf, equals, foreignKey$default$5, tax, indexes, asInstanceOf, tableConstraints, price, foreignKey, synchronized, $isInstanceOf, encodeRef, primaryKeys, tableNode, tableProvider, foreignKeys, notifyAll, primaryKey, isInstanceOf, foreignKey$default$6, <init>, id, schemaName, create_*, tableName, tableTag, ==, clone, toNode, collectFieldSymbols, TableElementType, column, toString, index$default$3, !=, getClass, tableIdentitySymbol, ne, O, eq, ##, finalize, index, hashCode, Items.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
-[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/TestMain.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pramod/Documents/SlickTest/src/main/scala/controller/TestMain.scala, /home/pramod/Documents/SlickTest/src/main/scala/controller/InvoiceController.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

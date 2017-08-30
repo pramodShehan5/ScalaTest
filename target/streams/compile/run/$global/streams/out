@@ -8,8 +8,8 @@
 [0m[[0mdebug[0m] [0m	/home/pramod/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.4.jar[0m
 [0m[[0mdebug[0m] [0m	/home/pramod/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
 [0m[[0mdebug[0m] [0m	/home/pramod/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.6.4.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-5 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-5 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-d to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-d exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 [0m[[0mdebug[0m] [0mExited with code 0[0m
