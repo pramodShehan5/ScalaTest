@@ -1,3 +1,3 @@
 package model
 
-case class Invoice( id:Int , listItems:List[Items])
+case class Invoice( id:Int , listItems:List[model.Items])
