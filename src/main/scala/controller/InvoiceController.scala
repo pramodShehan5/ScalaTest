@@ -1,10 +1,11 @@
 package controller
 
-import model.{Invoice, Items}
+import db.model.{Invoice}
 
 object InvoiceController {
   def getTotalOfInvoice(invoiceObj: Invoice): Double = {
-    val listPrice = for (item <- invoiceObj.listItems) yield ItemsController.calculatePrice(item) //(item.price * item.quantity) + (item.price*(item.tax/100))
+    val listPrice = for (item <- invoiceObj.listItems) yield ItemsController.calculatePrice(item)
+    //(item.price * item.quantity) + (item.price*(item.tax/100))
     listPrice.sum
   }
 

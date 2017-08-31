@@ -1,6 +1,9 @@
-package dao
+package db.model
 
 import scala.slick.driver.PostgresDriver.simple._
+
+
+case class Item(name:String  ,  price : Double , tax : Double , quantity : Int)
 
 class Items(tag: Tag) extends Table[( Int,String,Double,Double,Int)](tag, "items") {
   def id = column[Int]("id")
