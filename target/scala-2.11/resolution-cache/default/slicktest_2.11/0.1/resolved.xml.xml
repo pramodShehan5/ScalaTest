@@ -4,7 +4,7 @@
 		module="slicktest_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20170829160448"
+		publication="20170831142428"
 	>
 		<description>
 		SlickTest
@@ -36,6 +36,9 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.postgresql" name="postgresql" rev="9.3-1100-jdbc4" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.slick" name="slick_2.11" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="c3p0" name="c3p0" rev="0.9.1.2" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.0.9" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.1" conf="test->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
