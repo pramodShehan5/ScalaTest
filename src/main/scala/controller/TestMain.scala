@@ -1,3 +1,4 @@
+/*
 package controller
 
 import controller.InvoiceController.{getTotal, getTotalOfInvoice}
@@ -15,6 +16,8 @@ object TestMain {
     println("Total of all invoices : " + getTotal(listInvoice))
    // insertItems(new Items("item2",10,10,5))
 
-    //getItems()
+//
+//    getItems()
   }
 }
+*/

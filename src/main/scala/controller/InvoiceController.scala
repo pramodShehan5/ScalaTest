@@ -1,3 +1,4 @@
+/*
 package controller
 
 import db.model.{Invoice}
@@ -14,3 +15,4 @@ object InvoiceController {
     listItems.sum
   }
 }
+*/

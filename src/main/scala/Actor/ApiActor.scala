@@ -1,8 +1,8 @@
+/*
 package Actor
 
 import akka.actor.{Actor, ActorLogging}
 import controller.InvoiceController.getTotalOfInvoice
-import controller.ItemsController.aa
 import db.model.{Invoice, Item}
 import spray.http.MediaTypes
 import spray.routing.{HttpService, Route}
@@ -65,3 +65,4 @@ class ApiActor extends Actor with HttpService with ActorLogging {
     }
   }
 }
+*/
