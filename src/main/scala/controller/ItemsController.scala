@@ -2,13 +2,11 @@ package controller
 
 import config.DbConf
 import db.model.{Item, Items}
-
 import scala.slick.driver.PostgresDriver.simple._
-//import dao.Items  ItemDAO
 
 object ItemsController extends DbConf {
   def calculateTax(item: Item): Double = {
-    (item.price * (item.tax / 100))
+    item.price * (item.tax / 100)
   }
 
   def calculatePrice(item: Item): Double = {
@@ -29,7 +27,7 @@ object ItemsController extends DbConf {
 
   def getItems() = {
 
-    Database.forURL(url, driver =dbDriver) withSession {
+    Database.forURL(url, driver = dbDriver) withSession {
       implicit session =>
         val items = TableQuery[Items]
 
@@ -37,5 +35,9 @@ object ItemsController extends DbConf {
           println(row + " item")
         }
     }
+  }
+
+  def updateItems() ={
+
   }
 }

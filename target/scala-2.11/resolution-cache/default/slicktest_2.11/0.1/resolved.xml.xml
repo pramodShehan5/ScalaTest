@@ -4,7 +4,7 @@
 		module="slicktest_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20170831142428"
+		publication="20170831153643"
 	>
 		<description>
 		SlickTest
@@ -40,5 +40,10 @@
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.0.9" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.1" conf="test->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-nop" rev="1.6.4" conf="compile->default(compile)"/>
+		<dependency org="io.spray" name="spray-can_2.11" rev="1.3.2" conf="compile->default(compile)"/>
+		<dependency org="io.spray" name="spray-routing_2.11" rev="1.3.2" conf="compile->default(compile)"/>
+		<dependency org="io.spray" name="spray-json_2.11" rev="1.3.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.6" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.11" rev="10.0.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
